@@ -15,3 +15,4 @@ const Objects1 = {
 console.log(Objects1.students);
 console.log(Objects1.professionals);
 console.log(Objects1.professionals.names.ambroise);
+console.log(Objects1.professionals.names.belhla);
