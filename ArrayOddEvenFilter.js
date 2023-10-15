@@ -1,1 +1,0 @@
-const ArrayOddEvenFilter = (arr = [], filter === "odds");
