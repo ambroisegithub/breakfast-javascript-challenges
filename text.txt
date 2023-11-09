@@ -1,0 +1,12 @@
+ I am ...Names, a final-year student in the Department of Software Development, eager to join the Andela Technical Leadership Program.
+ Although I have not yet completed my university studies, I have a strong foundation in software development and a deep passion for the field. 
+ Throughout my academic journey, I've had the opportunity to work on diverse projects, gaining exposure to 
+ various programming languages and software development concepts. My primary focus is on web development, and I've actively sharpened my skills in this area.
+
+I've also gained practical experience through internships at [mention relevant internship experiences], where 
+I collaborated on real-world projects and learned the importance of writing clean, efficient code and effective issue troubleshooting. 
+Additionally, my personal projects, such as [describe one or two projects], reflect my dedication to continuous learning and improvement.
+
+The ever-evolving nature of the software development field excites me, and I'm particularly interested in [mention specific areas or technologies]
+where I aspire to contribute to innovative projects. In summary, I am a passionate and driven software development student with a strong background and 
+a commitment to learning and growth. I am enthusiastic about the prospect of becoming part of a dynamic team and furthering my career as a software developer.
