@@ -1,26 +1,9 @@
-function removeDuplicates(array) {
+const removeDuplicate = (array) => {
+  // return [...new Set(array)];
   return Array.from(new Set(array));
-}
+};
 
-function removeDuplicatesSpread(array) {
-  return [...new Set(array)];
-}
+var array = [12, 12, 4, 55, 45, 45];
 
-var fruits = [
-  "banana",
-  "apple",
-  "orange",
-  "watermelon",
-  "apple",
-  "orange",
-  "grape",
-  "apple",
-];
-
-var uniqueFruits = removeDuplicates(fruits);
-console.log(uniqueFruits); // returns ["banana", "apple", "orange", "watermelon", "grape"]
-
-var uniqueFruits2 = removeDuplicatesSpread(fruits);
-console.log(uniqueFruits2); // returns ["banana", "apple", "orange", "watermelon", "grape"]
-
-
+var result = removeDuplicate(array);
+console.log(result);
