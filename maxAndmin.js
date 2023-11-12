@@ -14,7 +14,8 @@ const minimum = (array1) => {
   var min = array1[0];
 
   for (let i = 1; i < array1.length; i++) {
-    if (array1[i] < min) min = array1[i];
+    if (array1[i] < min) 
+    min = array1[i];
   }
   return min;
 };

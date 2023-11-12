@@ -1,29 +1,29 @@
 // first way
-const reverseArray = (Input) => {
+const reverseArray = (array) => {
   let reversedArray = [];
 
-  for (let index = Input.length - 1; index >= 0; index--) {
-    reversedArray.push(Input[index]);
+  for (let i = array.length - 1; i >= 0; i--) {
+    reversedArray += array[i];
   }
 
   return reversedArray;
 };
-let originalArray = [10, 20, 30, 40];
+let originalArray = ["A", "B", "C", "D"];
 let reversed = reverseArray(originalArray);
 
 console.log(reversed);
 // second way
-var colors = [
-  "blue",
-  "white",
-  "green",
-  "navy",
-  "pink",
-  "purple",
-  "orange",
-  "yellow",
-  "black",
-  "brown",
-];
-var reversedColors = colors.reverse();
-console.log(reversedColors);
+// var colors = [
+//   "blue",
+//   "white",
+//   "green",
+//   "navy",
+//   "pink",
+//   "purple",
+//   "orange",
+//   "yellow",
+//   "black",
+//   "brown",
+// ];
+// var reversedColors = colors.reverse();
+// console.log(reversedColors);
