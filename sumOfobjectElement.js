@@ -6,7 +6,7 @@ const sum = (obj) => {
         }
     }
     j
-    return sum;
+    return sum;duplicatedValues
 }
 
 var sample = { a: 1, b: 2, c: 3 };

@@ -1,33 +1,20 @@
-// function isPrime(number) {
-//   if (number === 1) {
-//     return "1 is not a prime number.";
-//   } else if (number === 2) {
-//     return "2 is a prime number.";
-//   } else {
-//     for (var divisor = 2; divisor < number; divisor++) {
-//       if (number % divisor === 0) {
-//         return number + " is not a prime number.";
-//       }
-//     }
-//     return number + " is a prime number.";
-//   }
-// }
 
-// console.log(isPrime(1));
 
-const IsPrime = (number) => {
+const IsPrimeNumber = (number) => {
   if (number === 1) {
-    return "1 Number is not a Prime number";
+    return "The Number is Not Prime";
   } else if (number === 2) {
-    return "2 Number is a prime number";
+    return "The Number is Prime";
   } else {
-    for (let divisor = 2; divisor < number; divisor++) {
-      if (number % divisor === 0) {
-        return number + "  is Not a prime number";
+    for (let i = 2; i < number; i++) {
+      if (number % i === 0) {
+        return number + " Is Not Prime number";
+      } else {
+        return number + " Is Prime Number";
       }
     }
-    return number + "  is  a prime number";
   }
 };
 
-console.log(IsPrime(7));
+var number = IsPrimeNumber(8);
+console.log(number);

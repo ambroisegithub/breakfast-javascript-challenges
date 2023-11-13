@@ -1,20 +1,10 @@
-// const multiply = (a, b) => {
 
-//     if (isNaN(a) || isNaN(b)) {
-//         return "error"
-//     } else {
-//         return a * b;
-//     }
-// }
-
-// console.log("The Products of two number is:", multiply(3, "m"));
-
-const addTwoNumbers = (a, b) => {
-  if (isNaN(a) || isNaN(b)) {
+const MultTwonumbers = (A, B) => {
+  if (isNaN(A) || isNaN(B)) {
     return "error";
   } else {
-    return a * b;
+    return A * B;
   }
 };
 
-console.log(addTwoNumbers(10,"m"));
+console.log(MultTwonumbers(10, "ii"));

@@ -1,11 +1,10 @@
 
-const differenceBtnArray = (array1, array2) => {
-  return array1.filter((elements) => !array2.includes(elements)); //[ 1, 2 ]
-  // return array1.filter((elements) => array2.includes(elements));//[ 3, 4 ]
+
+const arrayDifference = (array1, array2) => {
+  return array1.filter((elements) => !array2.includes(elements));
 };
 
-let array1 = [1, 2, 3, 4];
-let array2 = [3, 8, 4];
-var result = differenceBtnArray(array1, array2);
+var array1 = [1, 3, 4, 5, 6];
+var array2 = [1, 3, 9, 0, 11];
 
-console.log(result);
+console.log(arrayDifference(array1, array2));
