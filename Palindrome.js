@@ -1,5 +1,3 @@
-
-
 const checkPalindrome = (str) => {
   var j = str.length;
   for (let i = 0; i < j / 2; i++) {
@@ -16,5 +14,3 @@ const checkPalindrome = (str) => {
 const check_palindrome = "madam";
 
 console.log(checkPalindrome(check_palindrome));
-
-

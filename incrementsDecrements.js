@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const updateDisplay = () => {
         countDisplay.textContent = count;
     }
+    
     Increments.addEventListener("click", () => {
         count++;
         updateDisplay();

@@ -1,10 +1,10 @@
-
-
 const IsPrimeNumber = (number) => {
   if (number === 1) {
     return "The Number is Not Prime";
   } else if (number === 2) {
+
     return "The Number is Prime";
+    
   } else {
     for (let i = 2; i < number; i++) {
       if (number % i === 0) {
@@ -17,4 +17,5 @@ const IsPrimeNumber = (number) => {
 };
 
 var number = IsPrimeNumber(8);
+
 console.log(number);

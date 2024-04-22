@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Limit Example</title>
+</head>
+<body>
+
+  <p id="wordLimitedParagraph" contenteditable="true" oninput="limitWords()">Type up to 20 words here</p>
+  <p id="wordCount">Words: 0</p>
+
+  <script>
+    function limitWords() {
+      var paragraph = document.getElementById('wordLimitedParagraph');
+      var wordCount = paragraph.innerText.trim().split(/\s+/).length;
+
+      if (wordCount > 20) {
+        // Split the content into words and take only the first 20
+        var words = paragraph.innerText.trim().split(/\s+/).slice(0, 20);
+        // Join the first 20 words back into a string
+        paragraph.innerText = words.join(' ');
+        // Update word count
+        wordCount = 20;
+      }
+
+      document.getElementById('wordCount').innerText = 'Words: ' + wordCount;
+    }
+  </script>
+
+</body>
+</html>

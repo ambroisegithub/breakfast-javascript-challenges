@@ -19,6 +19,7 @@ let array = [10, 2, 30, 40, 50, 60, 1, 109];
 
 console.log("The maximun number  in array  " + max(array));
 console.log("The manimun number  in array  " + min(array));
+
 // const maximum = (array) => {
 //   var max = array[0];
 
